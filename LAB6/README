@@ -3,10 +3,10 @@ Tutaj wrzucamy wszystko do LAB6 - Projekt schematu bazy danych w SQL
 Komendy do uruchomienia servera na którego wgrywamy bazę:
 
 -- 1 CMD - uruchamiamy server --
-cd C:\Users\rosroomcell3\Desktop\Patryk studia\LAB5\hsqldb                                                              <--- przykladowa sciezka
+cd C:\Users\rosroomcell3\Desktop\Patryk studia\LAB5\hsqldb                                                              <--- sciezka do HSQLDB
 java -classpath lib/hsqldb.jar org.hsqldb.server.Server --database.0 file:hsqldb/hemrajdb --dbname.0 testdb
 
 -- 2 CMD - uruchamiamy HSQLDB --
-cd C:\Users\rosroomcell3\Desktop\Patryk studia\LAB5\hsqldb\data                                                         <--- przykladowa sciezka
+cd C:\Users\rosroomcell3\Desktop\Patryk studia\LAB5\hsqldb\data                                                         <--- sciezka do HSQLDB/data
 java -classpath ../lib/hsqldb.jar org.hsqldb.util.DatabaseManagerSwing
 
